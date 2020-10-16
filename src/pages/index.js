@@ -40,15 +40,13 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">We've got what you need!</h2>
+                <h2 className="text-white mt-0">Wir haben die passende Lösung</h2>
                 <hr className="divider light my-4"/>
-                <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
-                  and
-                  running in no time! Choose one of our open source, free to download, and easy to use themes! No
-                  strings
-                  attached!</p>
+                <p className="text-white-50 mb-4">
+                  Unsere Webseiten sind Anpassungsfähig und liefern mit dem minimalsten Code den maximalen Ertrag.
+                  Unsere Professionellen Fotos liefern den fertigen Schliff, welche jede gute Webseite braucht.</p>
                 <a className="btn btn-light btn-xl js-scroll-trigger" href="#services"
-                   onClick={Scroller.handleAnchorScroll}>Get Started!</a>
+                   onClick={Scroller.handleAnchorScroll}>Unser Service</a>
               </div>
             </div>
           </div>
@@ -56,35 +54,35 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section" id="services">
           <div className="container">
-            <h2 className="text-center mt-0">At Your Service</h2>
+            <h2 className="text-center mt-0">Unsere Dienstleistungen</h2>
             <hr className="divider my-4"/>
             <div className="row">
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-gem text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Sturdy Themes</h3>
-                  <p className="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                  <h3 className="h4 mb-2">Qualität</h3>
+                  <p className="text-muted mb-0">Wir benutzen neuste Tech</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Up to Date</h3>
-                  <p className="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                  <h3 className="h4 mb-2">Optimiert</h3>
+                  <p className="text-muted mb-0">Egal ob auf ihrem handy oder mit dem Computer</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-globe text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Ready to Publish</h3>
-                  <p className="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                  <h3 className="h4 mb-2">Netzwerk</h3>
+                  <p className="text-muted mb-0">Wir liefern Seiten, welche schneller geladen werden als Andere.</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Made with Love</h3>
-                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                  <h3 className="h4 mb-2">Herz</h3>
+                  <p className="text-muted mb-0">Wir machen unsere Arbeit mit Herz </p>
                 </div>
               </div>
             </div>
@@ -99,10 +97,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      Kategorie
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Projekt Name
                     </div>
                   </div>
                 </a>
@@ -112,10 +110,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[1].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                    Kategorie
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Projekt Name
                     </div>
                   </div>
                 </a>
@@ -125,10 +123,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[2].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                    Kategorie
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Projekt Name
                     </div>
                   </div>
                 </a>
@@ -138,10 +136,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[3].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                    Kategorie
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Projekt Name
                     </div>
                   </div>
                 </a>
@@ -151,10 +149,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[4].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                    Kategorie
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Projekt Name
                     </div>
                   </div>
                 </a>
@@ -164,10 +162,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[5].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption p-3">
                     <div className="project-category text-white-50">
-                      Category
+                    Kategorie
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Projekt Name
                     </div>
                   </div>
                 </a>
@@ -178,8 +176,10 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section bg-dark text-white">
           <div className="container text-center">
-            <h2 className="mb-4">Free Download at Start Bootstrap!</h2>
-            <a className="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
+            <h2 className="mb-4"><a href="https://gewerbe-seiten.ch">Gewerbe-Seiten.ch</a> <br></br> Webseiten mit Herz und Verstand</h2>
+            <a className="btn btn-light btn-xl" href="#contact" onClick={Scroller.handleAnchorScroll}> kontaktieren Sie uns
+            {/* // href="mailto:info@gewerbe-seiten.ch">Kontakt  */}
+            </a>
           </div>
         </section>
 
@@ -187,21 +187,19 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="mt-0">Let's Get In Touch!</h2>
+                <h2 className="mt-0">Kontakt</h2>
                 <hr className="divider my-4"/>
-                <p className="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an
-                  email
-                  and we will get back to you as soon as possible!</p>
+                <p className="text-muted mb-5">Wir sind in Zürich unterwegs und stets erreichbar während den herkömmlichen Arbeitszeiten.</p>
               </div>
             </div>
             <div className="row">
               <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                 <i className="fas fa-phone fa-3x mb-3 text-muted"></i>
-                <div>+1 (202) 555-0149</div>
+                <div>+41 79 201 68 03</div>
               </div>
               <div className="col-lg-4 mr-auto text-center">
                 <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                <a className="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+                <a className="d-block" href="mailto:info@gewerbe-seiten.ch">info@gewerbe-seiten.ch</a>
               </div>
             </div>
           </div>
