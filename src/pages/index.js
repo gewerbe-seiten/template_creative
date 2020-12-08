@@ -40,10 +40,10 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">Wir haben die passende Lösung</h2>
+                <h2 className="text-white mt-0">Wir haben passende Lösungen</h2>
                 <hr className="divider light my-4"/>
                 <p className="text-white-50 mb-4">
-                  Unsere Webseiten sind Anpassungsfähig und liefern mit dem minimalsten Code den maximalen Ertrag.
+                  Unsere Webseiten sind Anpassungsfähig und liefern den maximalen Ertrag.
                   Unsere Professionellen Fotos liefern den fertigen Schliff, welche jede gute Webseite braucht.</p>
                 <a className="btn btn-light btn-xl js-scroll-trigger" href="#services"
                    onClick={Scroller.handleAnchorScroll}>Unser Service</a>
@@ -61,28 +61,28 @@ export default class IndexPage extends React.Component {
                 <div className="mt-5">
                   <i className="fas fa-4x fa-gem text-primary mb-4"></i>
                   <h3 className="h4 mb-2">Qualität</h3>
-                  <p className="text-muted mb-0">Wir benutzen neuste Tech</p>
+                  <p className="text-muted mb-0">Wir benutzen die richtige Technologie für Webseiten</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
                   <h3 className="h4 mb-2">Optimiert</h3>
-                  <p className="text-muted mb-0">Egal ob auf ihrem handy oder mit dem Computer</p>
+                  <p className="text-muted mb-0">Egal ob auf ihrem Handy oder mit dem Computer</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-globe text-primary mb-4"></i>
                   <h3 className="h4 mb-2">Netzwerk</h3>
-                  <p className="text-muted mb-0">Wir liefern Seiten, welche schneller geladen werden als Andere.</p>
+                  <p className="text-muted mb-0">Wir liefern Seiten, welche schnell geladen werden</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Herz</h3>
-                  <p className="text-muted mb-0">Wir machen unsere Arbeit mit Herz </p>
+                  <h3 className="h4 mb-2">Verstand</h3>
+                  <p className="text-muted mb-0">Wir verstehen unsere Arbeit </p>
                 </div>
               </div>
             </div>
